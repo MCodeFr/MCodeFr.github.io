@@ -1,0 +1,231 @@
+html{
+    background-color: white;
+}
+.header{
+    top: -40px;
+    position: relative;
+    border: hidden;
+    background-color: transparent;
+    color: black;
+    font-size: large;
+}
+.header:hover{
+    cursor: pointer;
+    color: #228BE6;
+}
+.h2{
+    left: 50px;
+    position: relative;
+}
+.h3{
+    position: relative;
+    left: 100px;
+}
+.h4{
+    position: relative;
+    left: 150px;
+}
+.h5{
+    position: relative;
+    left: 850px;
+}
+.jfacile{
+    position: relative;
+    left: 30%;
+    top: 80px;
+    padding: 1em;
+    box-sizing: 5px 5px 5px;
+    border: 0.5em solid black;
+    width: 180px;
+    height: 280px;
+    text-align: center;
+    border-color: black;
+}
+.jfacile-logo{
+    height: 150px;
+}
+.jfacile-button{
+    border: hidden;
+    background-color: transparent;
+    font-size: large;
+    color: black;
+}
+.jfacile-button:hover{
+    cursor: pointer;
+}
+.relaxe{
+    position: relative;
+    left: 56%;
+    top: -245px;
+    padding: 1em;
+    box-sizing: 5px 5px 5px;
+    border: 0.5em solid black;
+    width: 180px;
+    height: 280px;
+    text-align: center;
+    border-color: black;
+}
+.relaxe-logo{
+    height: 150px;
+}
+.relaxe-button{
+    border: hidden;
+    background-color: transparent;
+    font-size: large;
+    color: black;
+}
+.relaxe-button:hover{
+    cursor: pointer;
+}
+h3{
+    color: black;
+}
+.footer{
+    position: relative;
+    top: -103px;
+}
+svg path{
+    fill: black;
+}
+svg path:hover{
+    fill: #228BE6;
+}
+.hamburger{
+    visibility: hidden;
+}
+.sidenav {
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: white;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+  }
+  
+  /* Sidenav menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #228BE6;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+@media all and (max-width: 480px)  {
+    .header{
+        visibility: hidden;
+    }
+    .h2{
+        visibility: hidden;
+    }
+    .h3{
+        visibility: hidden;
+    }
+    .h4{
+        visibility: hidden;
+    }
+    .h5{
+        visibility: hidden;
+    }
+    .hamburger{
+        visibility: visible;
+    }
+    .img{
+        height: 100px;
+        width: 100px;
+    }
+    .description{
+        top: 350px;
+    }
+    .footer{
+        visibility: hidden;
+    }
+    .jfacile{
+        left: 50px;
+        height: 180px;
+        width: 130px;
+        font-size: small;
+    }
+    .jfacile-logo{
+        height: 70px;
+    }
+    .relaxe{
+        height: 180px;
+        width: 130px;
+        font-size: small;
+        top: -137px;
+    }
+    .relaxe-logo{
+        height: 70px;
+    }
+    .relaxe-button{
+        top: -10px;
+        position: relative;
+    }
+}
+@media (max-width: 780px) {
+    .header{
+        font-size: medium;
+    }
+    .h2{
+        position: relative;
+        left: 40px;
+    }
+    .h3{
+        position: relative;
+        left: 80px;
+    }
+    .h4{
+        position: relative;
+        left: 120px;
+    }
+    .h5{
+        position: relative;
+        left: 250px;
+    }
+    .img{
+        height: 140px;
+        width: 140px;
+    }
+    .description{
+        top: 364px;
+    }
+    .footer{
+        top: 500px;
+    }
+}
