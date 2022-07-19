@@ -4,10 +4,9 @@ html{
 .header{
     top: -40px;
     position: relative;
-    border: hidden;
-    background-color: transparent;
+    text-decoration: none;
     color: white;
-    font-size: large;
+    font-size: 20px;
 }
 .header:hover{
     cursor: pointer;
@@ -28,6 +27,10 @@ html{
 .h5{
     position: relative;
     left: 850px;
+}
+.h6{
+    position: relative;
+    left: 200px;
 }
 .skills{
     height: 450px;
@@ -139,28 +142,29 @@ svg path:hover{
     }
     .h2{
         position: relative;
-        left: 40px;
+        left: 35px;
     }
     .h3{
         position: relative;
-        left: 80px;
+        left: 70px;
     }
     .h4{
         position: relative;
-        left: 120px;
+        left: 105px;
+    }
+    .h6{
+        position: relative;
+        left: 140px;
     }
     .h5{
         position: relative;
-        left: 250px;
+        left: 175px;
     }
-    .img{
-        height: 140px;
-        width: 140px;
-    }
-    .description{
-        top: 364px;
+    .skills{
+        height: 250px;
+        left: -120px;
     }
     .footer{
-        top: 500px;
+        top: 133px;
     }
 }

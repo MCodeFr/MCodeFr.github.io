@@ -4,10 +4,9 @@ html{
 .header{
     top: -40px;
     position: relative;
-    border: hidden;
-    background-color: transparent;
+    text-decoration: none;
     color: white;
-    font-size: large;
+    font-size: 20px;
 }
 .header:hover{
     cursor: pointer;
@@ -28,6 +27,10 @@ html{
 .h5{
     position: relative;
     left: 850px;
+}
+.h6{
+    position: relative;
+    left: 200px;
 }
 .jfacile{
     position: relative;
@@ -204,28 +207,35 @@ svg path:hover{
     }
     .h2{
         position: relative;
-        left: 40px;
+        left: 35px;
     }
     .h3{
         position: relative;
-        left: 80px;
+        left: 70px;
     }
     .h4{
         position: relative;
-        left: 120px;
+        left: 105px;
+    }
+    .h6{
+        position: relative;
+        left: 140px;
     }
     .h5{
         position: relative;
-        left: 250px;
+        left: 175px;
     }
-    .img{
-        height: 140px;
-        width: 140px;
+    .jfacile{
+        left: -2px;
+        top: -3px;
+        font-size: small;
     }
-    .description{
-        top: 364px;
+    .relaxe{
+        left: 280px;
+        top: -320px;
+        font-size: small;
     }
     .footer{
-        top: 500px;
+        top: -251px;
     }
 }
