@@ -87,6 +87,13 @@ h3{
     position: relative;
     top: -103px;
 }
+.credits{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
 svg path{
     fill: white;
 }
@@ -234,6 +241,10 @@ svg path:hover{
         left: 280px;
         top: -320px;
         font-size: small;
+    }
+    .relaxe-button{
+        top: -15px;
+        position: relative;
     }
     .footer{
         top: -251px;

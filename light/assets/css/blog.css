@@ -36,6 +36,13 @@ html{
     position: relative;
     top: 347px;
 }
+.credits{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
 svg path{
     fill: black;
 }
