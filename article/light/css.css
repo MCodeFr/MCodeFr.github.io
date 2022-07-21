@@ -32,9 +32,22 @@ html{
     position: relative;
     left: 200px;
 }
+.laptop{
+    height: 500px;
+}
+.blog1{
+    color: black;
+}
+p{
+    width: 180px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .footer{
     position: relative;
-    top: 347px;
+    top: 100px;
 }
 svg path{
     fill: black;
@@ -98,27 +111,6 @@ svg path:hover{
     background-color: black;
     margin: 6px 0;
   }
-  .laptop{
-    height: 120px;
-    position: relative;
-    top: 10px;
-    left: 35px;
-  }
-  .blog1{
-    height: 190px;
-    color: black;
-    text-align: center;
-    width: 300px;
-    box-sizing: 5px 5px 5px;
-    border: 0.5em solid black;
-  }
-  .blog-consult1{
-    text-decoration: none;
-    color: black;
-    position: relative;
-    left: -95px;
-    top: 35px;
-  }
 @media all and (max-width: 480px)  {
     .header{
         visibility: hidden;
@@ -144,6 +136,9 @@ svg path:hover{
     }
     .description{
         top: 350px;
+    }
+    .laptop{
+        height: 170px;
     }
     .footer{
         visibility: hidden;
@@ -174,6 +169,6 @@ svg path:hover{
         left: 175px;
     }
     .footer{
-        top: 319px;
+        top: 65px;
     }
 }

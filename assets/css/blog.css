@@ -34,7 +34,7 @@ html{
 }
 .footer{
     position: relative;
-    top: 485px;
+    top: 347px;
 }
 svg path{
     fill: white;
@@ -97,6 +97,27 @@ svg path:hover{
     height: 5px;
     background-color: black;
     margin: 6px 0;
+  }
+  .laptop{
+    height: 120px;
+    position: relative;
+    top: 10px;
+    left: 35px;
+  }
+  .blog1{
+    height: 190px;
+    color: white;
+    text-align: center;
+    width: 300px;
+    box-sizing: 5px 5px 5px;
+    border: 0.5em solid white;
+  }
+  .blog-consult1{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: -95px;
+    top: 35px;
   }
 @media all and (max-width: 480px)  {
     .header{
