@@ -1,5 +1,6 @@
 html{
     background-color: rgb(52, 50, 48);
+    cursor: url('../img/curseur-dark.cur'), pointer;
 }
 .header{
     top: -40px;
@@ -9,7 +10,7 @@ html{
     font-size: 20px;
 }
 .header:hover{
-    cursor: pointer;
+    cursor: url('../img/curseur-blue.cur'), pointer;
     color: #228BE6;
 }
 .h2{
@@ -48,11 +49,15 @@ html{
     top: -15px;
     left: 10px;
 }
+.credits:hover{
+    cursor: url('../img/curseur-blue.cur'), pointer;
+}
 svg path{
     fill: white;
 }
 svg path:hover{
     fill: #228BE6;
+    cursor: url('../img/curseur-blue.cur'), pointer;
 }
 .hamburger{
     visibility: hidden;

@@ -1,5 +1,6 @@
 html{
     background-color: white;
+    cursor: url('../../../assets/img/curseur.cur'), pointer;
 }
 .header{
     top: -40px;
@@ -9,7 +10,7 @@ html{
     font-size: 20px;
 }
 .header:hover{
-    cursor: pointer;
+    cursor: url('../../../assets/img/curseur-blue.cur'), pointer;
     color: #228BE6;
 }
 .h2{
@@ -54,7 +55,7 @@ html{
     color: black;
 }
 .jfacile-button:hover{
-    cursor: pointer;
+    cursor: url('../../../assets/img/curseur-blue.cur'), pointer;
 }
 .relaxe{
     position: relative;
@@ -78,7 +79,7 @@ html{
     color: black;
 }
 .relaxe-button:hover{
-    cursor: pointer;
+    cursor: url('../../../assets/img/curseur-blue.cur'), pointer;
 }
 h3{
     color: black;
@@ -94,11 +95,15 @@ h3{
     top: -15px;
     left: 10px;
 }
+.credits:hover{
+    cursor: url('../../../assets/img/curseur-blue.cur'), pointer;
+}
 svg path{
     fill: black;
 }
 svg path:hover{
     fill: #228BE6;
+    cursor: url('../../../assets/img/curseur-blue.cur'), pointer;
 }
 .hamburger{
     visibility: hidden;
